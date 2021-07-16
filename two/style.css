@@ -1,0 +1,58 @@
+body{
+    background-color: rgba(0, 0, 255, 0.714);
+    position: relative;
+}
+
+button{
+    position: absolute;
+    top: 125px;
+    right: 25px;
+    background-color: black;
+    color: white;
+    border: 1px solid;
+    box-shadow: 3px 3px rgb(0, 0, 0);
+}
+
+#all {
+    height: 150px;
+    border: 2px solid rgb(29, 29, 128);
+    border-radius: 15px;
+}
+
+p{
+    position: absolute;
+    left: 500px;
+}
+
+#plane {
+    position: absolute;
+    top: 155px;
+    transition: 1s;
+}
+
+#captain {
+    position: absolute;
+    top: 155px;
+    left: 500px;
+}
+
+#airport {
+    position: absolute;
+    top: 155px;
+    right: 20px;
+}
+
+#plane :hover {
+    height: 600px;
+    width: 600px;
+}
+
+#captain :hover{
+    height: 550px;
+    width: 550px;
+}
+
+#airport :hover {
+    height: 550px;
+    width: 550px;
+}
